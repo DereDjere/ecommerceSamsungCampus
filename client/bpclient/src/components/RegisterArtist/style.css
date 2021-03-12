@@ -1,0 +1,25 @@
+  .form {
+    margin: 0 auto;
+    max-width: 450px;
+  }
+
+  h4 {
+    text-align: right;
+  }
+  .btncreate {
+    background-color: #00a86b;
+    border-color: black;
+    color: white;
+  }
+  .buttonart.btn-sm {
+    background-color: #049be5;
+    color: black;
+    border-color: black;
+  }
+  .taille {
+    border-radius: 0px;
+  }
+  .centrer {
+    text-align: center;
+  }
+

@@ -1,0 +1,78 @@
+.imggirl {
+  width: 43em;
+  height: auto;
+
+}
+.imgmen {
+  width: 43em;
+  height: auto;
+
+}
+.imggirl:hover {
+  border: 2px solid grey;
+  filter: drop-shadow(16px 16px 20px red) grayscale(100%);
+  -webkit-filter: drop-shadow(16px 16px 20px red) grayscale(100%); 
+}
+.imgmen:hover {
+  border: 2px solid grey;
+  filter: drop-shadow(16px 16px 20px red) grayscale(100%);
+  -webkit-filter: drop-shadow(16px 16px 20px red) grayscale(100%); 
+}
+
+/* .btngirll {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+}
+.btnmenn {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+} */
+.font-black {
+  /* background-color: rgb(0, 0, 0); */
+  background-image: url('https://media.gettyimages.com/vectors/black-gradient-background-vector-id938963564?b=1&k=6&m=938963564&s=612x612&w=0&h=WXAdUmgjMupFqfggMOOkTh_P7OD0stMCHcah4YG-NZU=');
+}
+.btn {
+  color: black;
+}
+
+/* DESIGNS */
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}

@@ -1,0 +1,53 @@
+  .form {
+    margin: 0 auto;
+    max-width: 450px;
+  }
+
+  h4 {
+    text-align: right;
+    color: teal;
+  }
+
+  .btncreate {
+    background-color: #00a86b;
+    border-color: black;
+    color: white;
+  }
+
+  .buttonart.btn-sm {
+    background-color: #049be5;
+    color: black;
+    border-color: black;
+  }
+
+  .taille {
+    border-radius: 0px;
+  }
+
+  .centrer {
+    text-align: center;
+  }
+
+  .left {
+    text-align: left;
+
+  }
+
+  .right {
+    text-align: right;
+
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+ 
+  label.left.form-label {
+    background-color: white;
+    text-align: left;
+  }
+
+  label.text-center.form-label{
+background-color: transparent;
+  }
+ 

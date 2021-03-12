@@ -1,0 +1,19 @@
+.LogoInterface{
+    border-radius: 4px;
+    width: 150px;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 20px;
+    
+}
+
+.YourAccount{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Row{
+    display: block;
+    float: center;
+}

@@ -1,0 +1,51 @@
+/* Élément | http://localhost:3000/catalogue */
+
+#filter:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+label {
+  text-align: left;
+}
+.photos {
+  text-align: center;
+}
+/*
+.filter-model
+{
+    background-color: rgb(44, 44, 44);
+    justify-content: center;
+}
+.result-box
+{
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(44, 44, 44);
+    color : white;
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    
+    margin-top: 20px;
+    
+}
+.result-box img
+{
+    width: 200px;
+    height: 250px;
+    
+    
+    
+}
+.result{
+    width: 250px;
+    height: 350px;
+}
+
+.result-search{
+    width: 250px;
+    height: 350px;
+} */
+/* .result-all {
+  text-align: center !important;
+} */

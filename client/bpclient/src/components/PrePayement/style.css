@@ -1,0 +1,75 @@
+  .form {
+    margin: 0 auto;
+    max-width: 450px;
+  }
+
+  h4 {
+    text-align: right;
+  }
+  .btncreate {
+    background-color: #00a86b;
+    border-color: black;
+    color: white;
+  }
+  .buttonart.btn-sm {
+    background-color: #049be5;
+    color: black;
+    border-color: black;
+  }
+  .taille {
+    border-radius: 0px;
+  }
+  .centrer {
+    text-align: center;
+  }
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~.read-more-trigger:before{
+  color: white;
+  content: "Continue";
+}
+
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  font-size: .9em;
+  line-height: 2;
+  
+  border-radius: .25em;
+}
+
+/* Other style */ 
+
+
+p {
+  padding: 2%;
+
+
+  border-radius: .25em;
+}
+
+
+a{
+  color : blue;
+  font-style: italic;
+  text-decoration: solid 1px;
+}
+

@@ -1,0 +1,58 @@
+[
+    {
+        "name": "shippo/shippo-php",
+        "version": "v1.4.3",
+        "version_normalized": "1.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/goshippo/shippo-php-client.git",
+            "reference": "e4b577a0f45675db5df54e14877a2a9f463dfcad"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/goshippo/shippo-php-client/zipball/e4b577a0f45675db5df54e14877a2a9f463dfcad",
+            "reference": "e4b577a0f45675db5df54e14877a2a9f463dfcad",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.5.*"
+        },
+        "time": "2018-03-02T21:16:24+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/Shippo/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Shippo & Contributors",
+                "homepage": "https://goshippo.com/"
+            }
+        ],
+        "description": "A PHP library for connecting with multiple carriers (FedEx, UPS, USPS) using Shippo.",
+        "homepage": "https://goshippo.com/",
+        "keywords": [
+            "FedEx",
+            "Uber",
+            "address",
+            "dhl",
+            "shipping",
+            "shyp",
+            "tracking",
+            "ups",
+            "usps"
+        ]
+    }
+]

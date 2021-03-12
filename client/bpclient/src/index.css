@@ -1,0 +1,27 @@
+body {
+  /* background-image: url('https://raiashish.com.np/wp-content/uploads/2019/10/fire-flies.jpg');
+  
+  background-repeat: no-repeat; */
+  background:url('https://raiashish.com.np/wp-content/uploads/2019/10/fire-flies.jpg') space repeat left top, 
+  url('https://raiashish.com.np/wp-content/uploads/2019/12/shades-of-duo-tone-compressor-1024x768.jpg') space repeat right top, 
+  url('https://raiashish.com.np/wp-content/uploads/2019/10/fire-flies.jpg') no-repeat left bottom, 
+  url('https://raiashish.com.np/wp-content/uploads/2019/12/shades-of-duo-tone-compressor-1024x768.jpg') no-repeat right bottom; 
+}
+.container
+{
+  background-color: rgb(245, 245, 245);
+  border: rgba(255, 255, 255, 0.06) 1px solid;
+  max-width: 1440px;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
